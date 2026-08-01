@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Getulio Cesar De Leon Fernandez - Economista, Datos y Analitica</title>
+<meta name="description" content="Economista en el Banco Central de la Republica Dominicana (Cuentas Nacionales) y candidato a la Maestria en Datos Masivos. Construye pipelines de automatizacion, dashboards y herramientas de datos reproducibles en Python, R y SQL.">
+<link rel="canonical" href="https://getuliodeleon.com/es/">
+<link rel="alternate" hreflang="en" href="https://getuliodeleon.com/">
+<link rel="alternate" hreflang="es" href="https://getuliodeleon.com/es/">
+<link rel="alternate" hreflang="x-default" href="https://getuliodeleon.com/">
+<link rel="stylesheet" href="/style.css">
+
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Getulio Cesar De Leon Fernandez - Economista, Datos y Analitica">
+<meta property="og:description" content="Economista en el Banco Central de la Republica Dominicana (Cuentas Nacionales) y candidato a la Maestria en Datos Masivos.">
+<meta property="og:url" content="https://getuliodeleon.com/es/">
+<meta property="og:image" content="https://getuliodeleon.com/img/getulio.jpg">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Getulio Cesar De Leon Fernandez",
+  "jobTitle": "Economista",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Banco Central de la Republica Dominicana"
+  },
+  "alumniOf": [
+    {"@type": "CollegeOrUniversity", "name": "Instituto Tecnologico de Santo Domingo"},
+    {"@type": "CollegeOrUniversity", "name": "Universidad Internacional de La Rioja"}
+  ],
+  "knowsAbout": ["Cuentas Nacionales", "Econometria", "Python", "SQL", "Big Data", "Automatizacion de datos"],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Santo Domingo",
+    "addressCountry": "DO"
+  },
+  "email": "mailto:contact@getuliodeleon.com",
+  "url": "https://getuliodeleon.com",
+  "sameAs": [
+    "https://www.linkedin.com/in/getulio-cesar-de-leon-fernandez-05267a3b3/",
+    "https://github.com/deleongetulio"
+  ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+
+  <nav class="lang-switch">
+    <a href="/">EN</a>
+    <a href="/es/" class="active">ES</a>
+  </nav>
+
+  <header class="profile">
+    <img src="/img/getulio.jpg" alt="Retrato de Getulio Cesar De Leon Fernandez">
+    <div>
+      <h1>Getulio Cesar De Leon Fernandez</h1>
+      <p class="headline">Economista | Datos y Analitica | Python, SQL, R, Power BI | Candidato a Maestria en Datos Masivos</p>
+    </div>
+  </header>
+
+  <section class="narrative">
+    <p>
+      Soy economista en el departamento de Cuentas Nacionales del Banco
+      Central de la Republica Dominicana, donde participo en el calculo del
+      PIB bajo el Sistema de Cuentas Nacionales 2008, conciliando los
+      Cuadros de Oferta y Utilizacion a partir de los estados financieros
+      de miles de empresas e instituciones gubernamentales. Buena parte de
+      ese trabajo consistia en seis analistas compitiendo por los mismos
+      libros compartidos. Ese tipo de cuello de botella no me convence,
+      asi que construyo las herramientas que lo eliminan.
+    </p>
+    <p>
+      Ese instinto es lo que me llevo a disenar la aplicacion en Python
+      (pandas + xlwings) que hoy orquesta la compilacion de las cuentas
+      nacionales por actividad economica, liberando unas cuatro horas
+      diarias del equipo; un pipeline de datos que consolido archivos
+      dispersos en una sola tabla de mas de 1.3 millones de registros, con
+      un script de validacion que detecto 7,000 cambios interanuales de
+      catalogo que una auditoria manual habria pasado por alto; y un Cuadro
+      de Oferta y Utilizacion desagregado de mas de 480 columnas con su
+      propio algoritmo de optimizacion para equilibrar oferta y utilizacion.
+    </p>
+    <p>
+      Actualmente curso la Maestria en Analisis y Visualizacion de Datos
+      Masivos (UNIR), y uso proyectos personales para profundizar en las
+      partes del stack que mi trabajo diario todavia no exige -
+      infraestructura autohospedada, automatizacion con LLM, dashboards
+      construidos con datos publicos. Los proyectos de abajo son ejemplos
+      representativos, todos construidos con datos sinteticos o publicos.
+    </p>
+  </section>
+
+  <h2>Proyectos</h2>
+
+  <div class="project">
+    <img src="/img/proyecto-portafolio-msc.png" alt="Grafico de dispersion valor real vs predicho de un modelo de regresion">
+    <div class="project-body">
+      <h3><a href="https://github.com/deleongetulio/big-data-msc-portfolio">Portafolio Maestria Datos Masivos</a></h3>
+      <p>Trabajos de mi Maestria en Analisis y Visualizacion de Datos Masivos: pipelines con MongoDB y Neo4j, ML supervisado (scikit-learn, Keras), estadistica inferencial y un ejercicio de streaming con Spark/HDFS/Kafka. Cada carpeta de asignacion tiene su propio README bilingue con resultados y visualizaciones.</p>
+      <a class="repo-link" href="https://github.com/deleongetulio/big-data-msc-portfolio">Ver en GitHub &rarr;</a>
+    </div>
+  </div>
+
+  <div class="project">
+    <img src="/img/proyecto-finanzas-bpd.png" alt="Dashboard de finanzas personales con desglose por categoria y gasto diario">
+    <div class="project-body">
+      <h3><a href="https://github.com/deleongetulio/finanzas-bpd">Pipeline de Finanzas: Gmail a Firefly III</a></h3>
+      <p>Un pipeline de extremo a extremo que convierte correos de notificacion bancaria en un presupuesto categorizado y autohospedado: reglas de palabras clave mas Claude para los casos ambiguos, cruce de comercios con Apple Pay, un dashboard HTML y sincronizacion con una instancia autohospedada de Firefly III. Incluye un modo demo que corre con datos sinteticos sin ninguna credencial.</p>
+      <a class="repo-link" href="https://github.com/deleongetulio/finanzas-bpd">Ver en GitHub &rarr;</a>
+    </div>
+  </div>
+
+  <div class="project">
+    <img src="/img/proyecto-nominas.png" alt="Dashboard institucional de nomina con headcount, distribucion salarial y brecha de genero">
+    <div class="project-body">
+      <h3><a href="https://github.com/deleongetulio/nominas-sector-publico-rd">Analisis de Nominas del Sector Publico - Rep. Dominicana</a></h3>
+      <p>Un pipeline y dashboard en Streamlit para analizar datos de nomina del sector publico, construido a partir de los PDFs mensuales del portal de transparencia. Extrae, limpia y normaliza casi dos decadas de registros para comparar estructura de compensacion y trayectorias de carrera entre instituciones, departamentos y cargos.</p>
+      <a class="repo-link" href="https://github.com/deleongetulio/nominas-sector-publico-rd">Ver en GitHub &rarr;</a>
+    </div>
+  </div>
+
+  <div class="project">
+    <div class="project-body">
+      <h3><a href="https://github.com/deleongetulio/obsidian-rag-brain">Obsidian RAG Brain</a></h3>
+      <p>Scripts de RAG y mantenimiento para un vault de conocimiento personal: busqueda hibrida, embeddings incrementales y una consolidacion nocturna con guardarrailes que mantiene enlaces y estructura de grafo sin reescribir notas en silencio.</p>
+      <a class="repo-link" href="https://github.com/deleongetulio/obsidian-rag-brain">Ver en GitHub &rarr;</a>
+    </div>
+  </div>
+
+  <div class="project">
+    <div class="project-body">
+      <h3><a href="https://github.com/deleongetulio/claude-code-skills">Claude Code Skills</a></h3>
+      <p>Once skills de Claude Code para investigacion, escritura y gestion de conocimiento personal: investigacion profunda multi-fuente, informes citados con el metodo STORM, conversion de libros a skills, y mas.</p>
+      <a class="repo-link" href="https://github.com/deleongetulio/claude-code-skills">Ver en GitHub &rarr;</a>
+    </div>
+  </div>
+
+  <section class="contact-section">
+    <h2>Contacto</h2>
+    <ul class="contact-list">
+      <li><a href="mailto:contact@getuliodeleon.com">contact@getuliodeleon.com</a></li>
+      <li><a href="https://www.linkedin.com/in/getulio-cesar-de-leon-fernandez-05267a3b3/">LinkedIn</a></li>
+      <li><a href="https://github.com/deleongetulio">GitHub</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    &copy; 2026 Getulio Cesar De Leon Fernandez. Santo Domingo, Republica Dominicana.
+  </footer>
+
+</div>
+</body>
+</html>
