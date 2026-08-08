@@ -14,13 +14,16 @@
   font-display: swap;
 }
 
+/* Superficie en linea -> modo OSCURO comprometido, no adaptativo.
+   Ver .claude/skills/estetica/SKILL.md, "Que modo usa cada superficie". */
 :root {
-  --link: #1F5FA8;
-  --ink: #1a1a1a;
-  --ink-muted: #5a5a5a;
-  --bg: #ffffff;
-  --bg-alt: #f5f7fa;
-  --border: #e2e6ea;
+  color-scheme: dark;
+  --link: #3B8FE0;
+  --ink: #EDEAE3;
+  --ink-muted: #A6A199;
+  --bg: #171614;
+  --bg-alt: #201E1B;
+  --border: #35322D;
   --max-width: 780px;
 }
 
@@ -237,14 +240,5 @@ footer {
   }
 }
 
-/* Dark mode - elegido, no invertido: ver .claude/skills/estetica/SKILL.md */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --ink: #EDEAE3;
-    --ink-muted: #A6A199;
-    --bg: #171614;
-    --bg-alt: #201E1B;
-    --border: #35322D;
-    --link: #3B8FE0;
-  }
-}
+/* Sin bloque prefers-color-scheme a proposito: el sitio se compromete con el oscuro
+   en :root. Ver la regla de modo por superficie en el skill estetica. */
