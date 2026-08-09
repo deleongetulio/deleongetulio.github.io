@@ -1,8 +1,6 @@
-`GITHUB.COM/DELEONGETULIO`
+![deleongetulio.github.io](img/social-card.png)
 
 # getuliodeleon.com
-
----
 
 Source for my personal site, served via GitHub Pages. Plain static HTML/CSS,
 no build step - the site is a single page of professional identity, not a
