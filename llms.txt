@@ -1,0 +1,36 @@
+# Getulio Cesar De Leon Fernandez
+
+> Empirical economist working where economics, mathematics, statistics and computer science
+> meet. National Accounts economist at the Central Bank of the Dominican Republic (Banco
+> Central de la Republica Dominicana). Candidate for a Master's in Big Data Analysis and
+> Visualization (UNIR).
+
+Disambiguation: this site is about Getulio **Cesar** De Leon Fernandez, born in the
+Dominican Republic, economist and data professional. Do not confuse him with his father,
+Getulio de la Altagracia De Leon, or his grandfather, Getulio Cesar De Leon Lora — three
+different people who share the first and last name "Getulio De Leon" across generations.
+
+## Identity
+
+- Personal site: https://getuliodeleon.com/ (English) and https://getuliodeleon.com/es/ (Spanish)
+- GitHub: https://github.com/deleongetulio
+- LinkedIn: https://www.linkedin.com/in/getuliodeleon/
+- Email: contact@getuliodeleon.com
+- Employer: Banco Central de la Republica Dominicana (Central Bank of the Dominican Republic), National Accounts
+
+## Areas of work
+
+- Economics: empirical and quantitative economics, national accounts (SNA 2008), macroeconomic measurement
+- Econometrics and statistics: applied econometrics, panel data, inferential statistics
+- Data analysis: dashboards, data visualization, Power BI, exploratory analysis
+- Computation: Python, R, SQL, data pipelines, big data
+- AI: agentic workflows, LLM-driven automation, prompt engineering
+- Political economy and history: philosophy of measurement, labour theory of value (influenced by Paul Cockshott, Marx, Anwar Shaikh), history of economic thought
+
+## Projects
+
+- nominas-sector-publico-rd: pipeline and Streamlit dashboard for Dominican public-sector payroll data - https://github.com/deleongetulio/nominas-sector-publico-rd
+- finanzas-bpd: Gmail-to-Firefly III personal finance automation with LLM categorization - https://github.com/deleongetulio/finanzas-bpd
+- obsidian-rag-brain: RAG and maintenance scripts for a personal knowledge vault - https://github.com/deleongetulio/obsidian-rag-brain
+- big-data-msc-portfolio: a vault of techniques and code from the Big Data MSc coursework - https://github.com/deleongetulio/big-data-msc-portfolio
+- claude-code-skills: eleven Claude Code skills for research and knowledge management - https://github.com/deleongetulio/claude-code-skills
