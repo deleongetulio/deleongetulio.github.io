@@ -38,8 +38,9 @@ img{max-width:100%;display:block}
 .top a:hover,.top a.active{color:var(--ac)}
 
 /* hero */
-.hero{display:grid;grid-template-columns:1fr .88fr;gap:40px;align-items:end;padding:36px 0 56px}
-.hero h1{margin:0;font-size:clamp(2.9rem,9vw,8rem);color:var(--bg);-webkit-text-stroke:4px var(--ac);paint-order:stroke fill}
+.hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.88fr);gap:40px;align-items:end;padding:36px 0 56px}
+.hero>div:first-child{container-type:inline-size}
+.hero h1{margin:0;font-size:clamp(2.9rem,16.5cqw,8rem);color:var(--bg);-webkit-text-stroke:4px var(--ac);paint-order:stroke fill}
 .hero h1 span{white-space:nowrap}
 .hero .headline{margin:26px 0 0;max-width:34ch;font-size:1.2rem;line-height:1.45}
 .icons{display:flex;gap:18px;margin-top:22px}
@@ -107,6 +108,7 @@ footer a{color:var(--t2)}
 
 @media (max-width:860px){
   .hero,.about{grid-template-columns:1fr}
+  .hero h1{font-size:clamp(2.9rem,9vw,8rem)}
   .photo{max-width:320px}
   .areas{grid-template-columns:1fr 1fr}
   .cards{grid-template-columns:1fr}
