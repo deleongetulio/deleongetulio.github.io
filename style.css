@@ -38,7 +38,7 @@ img{max-width:100%;display:block}
 .top a:hover,.top a.active{color:var(--ac)}
 
 /* hero */
-.hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.88fr);gap:40px;align-items:end;padding:36px 0 56px}
+.hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.88fr);gap:40px;align-items:stretch;padding:36px 0 56px}
 .hero>div:first-child{container-type:inline-size}
 .hero h1{margin:0;font-size:clamp(2.9rem,16.5cqw,8rem);color:var(--bg);-webkit-text-stroke:4px var(--ac);paint-order:stroke fill}
 .hero h1 span{white-space:nowrap}
@@ -47,8 +47,8 @@ img{max-width:100%;display:block}
 .icons a{color:var(--ac);display:inline-flex}
 .icons a:hover{color:var(--tx)}
 .icons svg{width:22px;height:22px;fill:currentColor}
-.photo{background:var(--ac);padding:12px}
-.photo img{aspect-ratio:4/5;object-fit:cover;object-position:50% 20%;width:100%}
+.photo{background:var(--ac);padding:12px;justify-self:end}
+.photo img{aspect-ratio:4/5;object-fit:cover;object-position:50% 20%;height:100%;display:block}
 
 /* cinta */
 .marquee{overflow:hidden;border-block:3px solid var(--ac);white-space:nowrap;font-size:1.5rem}
@@ -109,7 +109,8 @@ footer a{color:var(--t2)}
 @media (max-width:860px){
   .hero,.about{grid-template-columns:1fr}
   .hero h1{font-size:clamp(2.9rem,9vw,8rem)}
-  .photo{max-width:320px}
+  .photo{width:auto;max-width:320px;justify-self:stretch}
+  .photo img{height:auto;width:100%}
   .areas{grid-template-columns:1fr 1fr}
   .cards{grid-template-columns:1fr}
 }
